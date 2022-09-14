@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+html {
+        font-size: 10px;
+}
+
+:root {
+    --color-white: #e4e4e4;
+    --color-white-transparent: #e4e4e479;
+    --color-darkgreen: #1a5215;
+    --color-green: #5c765c;
+}
+
+body {
+        font-family: 'Poppins', 'Segoe UI', 'Roboto',
+            'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--color-white);
+        margin: 0;
+        padding: 12px;
+        background-color: var(--color-white-transparent);
+        background-image: linear-gradient(135deg, #87aa80 0%, #174936 100%);
+
+}
+h1 {
+        color: var(--color-white)
+        font-size: 4rem;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    
+    @media (max-width: 460px) {
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+        }
+    }
+    
+    h2 {
+        font-size: 2rem;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+
+    #subtitle {
+        font-style: italic;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    
+    #headline {
+        font-style: italic;
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    a {
+        color: #2e5a7e;
+    }
+
+    a:hover {
+        color: #dbeaf6;
+    }
+    
+    a:visited {
+        color: #4c3374;
+    }
+
+    a:visited:hover {
+        color: #dbeaf6;
+    }
+    
+    #main {
+        margin: 30px 8px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: var(--color-white-transparent);
+    }
+    
+    @media (max-width: 460px) {
+        #main {
+            margin: 0;
+        }
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #img-div {
+        background: white;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    #img-caption {
+        font-size: 1.1rem;
+        color: var(--color-darkgreen);
+        margin: 15px 0 5px 0;
+    }
+    
+    @media (max-width: 460px) {
+        #img-caption {
+            font-size: 1rem;
+        }
+    }
+
+    #tribute-info {
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+    
+    ul {
+        max-width: 550px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.6;
+    }
+    
+    li {
+        margin: 16px 0;
+    }
+    
+    blockquote {
+        font-style: italic;
+        max-width: 545px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+    }
+
+    #tribute-link {
+        font-style: italic;
+    }
+    
+    footer {
+        font-size: 1rem;
+        font-weight: lighter;
+    }
